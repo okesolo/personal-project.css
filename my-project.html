@@ -4,22 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OKS</title>
+    <link rel="stylesheet" href="/my-project.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header>
-        <div class="brand-logo">OKS</div>
-        <nav mobile>
-            <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">SKILLS</a></li>
-                <li><a href="#">PROJECTS</a></li>
-                <li><a href="#">CONTACT</a></li>
-            </ul>
+    <header> 
+        <nav>
+            <div class="logo">
+            <span>OKS</span>
+            </div>
+            <div class="mobile">
+                <button><i class="fa-solid fa-bars"></i></button>
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#projects">PROJECTS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="desktop">
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#project">PROJECTS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+           </div>
         </nav>
     </header>
     <main class="main">
+        <section id="hero">
+            <h1>OKECHUKWU SOLOMON CHIEMEZIE</h1>
 
+            <h2>Web Developer in Training</h2>
+
+            <img src="./images/IMG_2887.jpeg" alt="An image of okechukwu solomon" width="100px">
+
+            <a href="/Professional Resume Web Developer.pdf" download>view my work</a>
+        
+        </section>
+        <section id="about">
+            <h2>About me</h2>
+            <p>I am a political science student trasitioning into the tech space. My journey involves mastering the art of building functional, clean websites.
+            p>
+            <p>I am motivated bt the intersection of technology and social growth, particularly how the web and Artificial intelligence can create new opportunities and development in the society</p>    
+            <img src="./images/IMG_5007.JPG.jpg" alt="a profession photo of Okechukwu Solomon" width="200px" height="250px">
+        </section>
+
+        <section id="skills">
+                <h2>My Skills</h2>
+                <div class="skill">
+                    <div>HTML</div>
+                    <div>VANILLA CSS</div>
+                    <div>GIT & GITHUB</div>
+                    <div>PRODUCT MANAGEMENT</div>
+                </div>
+        </section>
+        <section id="projects">
+            <h2>MY PROJECTS</h2>
+
+        </section>
+        <section id="contact">
+            <h2>CONTACT ME</h2>
+
+            <!-- why you should contact me -->
+            <p>Whether you are looking to bridge the gap between complex political research and actionable data, or you need a developer who views web architecture through a strategic, product-focused projects, I am here to help turn those ideas into reality. I thrive at the intersection of technical precision and social insight, bringing a unique perspective that ensures every project is both functional and impactful. If you have a challenge to solve, a project to launch, or simply want to explore how AI integration and responsive design can elevate your current workflow, let's start a conversation. Reach out today, I am always open to discussing new opportunities, sharing insights, and building something exceptional together.</p>
+
+            <!-- contact form -->
+            <form class="form">
+                <label for="fullname">Full name</label>
+                <input type="text" placeholder="first and surname" name="fullname" id="fullname">
+                <label for="email">Email</label>
+                <input type="email" placeholder="example@email.com" name="email" id="email">
+                <textarea name="comment" id="comment" placeholder="Drop a review"></textarea>
+                <button>SUBMIT</button>
+            </form>
+        </section>
     </main>
+    <footer>
+        <p>&copy; 2026 Solomon Chiemezie. All rights reserved.</p>
+        <i class="fa-brands fa-linkedin"><a href=""></a></i>
+        <i class="fa-brands fa-github"><a href=""></a></i>
+    </footer>
 </body>
 </html>
